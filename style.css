@@ -1,0 +1,144 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+
+.shop_categori .heading_sub {
+    padding: 0px 0 0 48px;
+}
+
+.shop_categori .item_collection {
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 35px;
+    margin-top: 35px;
+    text-align: center;
+    display: inline-flex;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.shop_categori .item_collection .item {
+    padding: 0px 13px 0px 13px;
+}
+
+.shop_categori .item_collection .item1 {
+    padding: 0px 0 0 48px;
+}
+
+.sale {
+    padding: 0 48px 0 48px;
+}
+
+.sale .heading_sale {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sale .heading_sale .viewmore {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: blue;
+}
+
+.sale .Sale_contain .counter {
+    color: white;
+    margin-top: -110px;
+    margin-left: 500px;
+    font-size: 30px;
+}
+
+.sale .Sale_contain .counter .count {
+    font-size: 50px;
+}
+
+.product_list {
+    display: flex; 
+    width: 100%;
+    margin-top: 80px;
+    padding-left: 48px;
+}
+
+.product_list .product_item {
+    width: 344px;
+    height: 445px;
+    margin-right: 20px;
+}
+
+.product_list .product_item .Product_first_container {
+    width: 343px;
+    height: 343px;
+}
+
+.product_list .product_item .product_img {
+    width: 343px;
+    height: 343px;
+    border-radius: 10px 10px 0 0;
+}
+
+.product_list .product_item .labels {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+    position: relative;
+    left: 1px;
+    top: -329px;
+}
+
+.product_item .Product_first_container .sub_title_product {
+    background-color: #fcc50b;
+    color: black;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    left: 60px;
+    top: -35px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 3px;
+    border: 2px solid black;
+    font-size: 12px;
+}
+
+.product_list .product_item .product_detail {
+    padding: 20px 14px;
+}
+
+.product_list .product_item .product_detail .product_other_detail {
+    padding-top: 20px;
+}
+
+.product_list .product_item .product_detail .product_other_detail .name_product {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -20px;
+}
+
+.product_list .product_item .product_detail .startimg {
+    margin-left: 5px;
+}
+
+.Explore_bestseller {
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+}
+ 
+.Explore_bestseller .Ex_heading {
+    padding: 0px 0 0 48px;
+}
+
+.Explore_bestseller .Product_Ex_list {
+    width: 100%;
+    display: inline-flex; 
+    gap: 10px; 
+    overflow: scroll;
+    padding-left: 48px;
+    margin-top: 20px;
+}
